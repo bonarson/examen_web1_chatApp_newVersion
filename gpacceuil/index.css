@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../image/544414-futuristische-blauwe-smartphone-met-achtergrond-van-de-pixels-de-abstracte-technologie-kunstmatige-intelligentie-digitale-transformatie-en-big-data-concept-zakelijke-quantum-internet-ne.jpg);
+    background-size: cover;
+}
+
+#navBar {
+    border: 2px solid black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.647);
+}
+
+#ul li {
+    display: inline-block;
+    margin-left: 6vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+#h1 {
+    font-size: 7rem;
+    line-height: 18vh;
+    color: white;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    cursor: default;
+}
+
+.h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    cursor: default;
+}
+
+#h3 {
+    line-height: 8vh;
+    cursor: default;
+}
+
+#googleSignInButton {
+    margin-top: 5vh;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 1vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 3px 10px rgba(9, 9, 108, 0.943);
+    cursor: pointer;
+}
+
+#section {
+    position: absolute;
+    top: 20vh;
+    left: 6vw;
+
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.647);
+
+}

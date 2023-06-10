@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mes.css">
+    <link rel="stylesheet" href="mec2.css">
+
+</head>
+
+<body id="claire">
+    <div class="containers">
+        <div class="navigation" id="navig">
+            <ul>
+                <li class="list active">
+                    <b id="qwerty"></b>
+                    <b id="qwerty2"></b>
+                    <a href="#" id="Home">
+                        <span class="icon"><ion-icon name="Home"></ion-icon></span>
+                        <span class="title">Home</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <span class="title">Profile</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#" id="clicMessage">
+                        <span class="icon"><ion-icon name="chatboxes"></ion-icon></span>
+                        <span class="title">Message</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="settings"></ion-icon></span>
+                        <span class="title">Setting</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="help"></ion-icon></span>
+                        <span class="title">Help</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="lock"></ion-icon></span>
+                        <span class="title">Password</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="../index.html">
+                        <span class="icon"><ion-icon name="log-out"></ion-icon></span>
+                        <span class="title"> <span>Sign</span><span id="sign">Out</span> </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="toggle" id="tongle">
+            <ion-icon name="menu" class="open"></ion-icon>
+            <ion-icon name="close" class="close" </ion-icon>
+        </div>
+        <!--chat group-->
+        <div id="conatiner_chat">
+            <div id="chatContainer">
+                <div id="profileContainer"></div>
+            </div>
+            <form id="messageForm">
+                <input type="text" id="messageInput" placeholder="Votre message" autocomplete="off">
+                <button type="submit" id="submit">Envoyer</button>
+            </form>
+        </div>
+        <!--list of friend chat and container login-->
+        <div id="listOfFriendChatAnd">
+            <div id="conatiner_list">
+                <div id="header_list">
+                    &ensp;&ensp;&ensp; <h1 id="h1_chat">Chats</h1>
+                </div>
+                <div id="header_list_center">
+                    <button id="buttonAll">All chat</button>
+                    <input type="text" placeholder="Search user" id="input_list">
+                </div>
+                <div id="horizontalListe">
+                    <ul id="activeUsersList"></ul>
+                </div>
+
+
+
+            </div>
+            <div id="ListeOfuserConnect">
+                <div id="userAuth"></div>
+            </div>
+            <button id="mode">SOMBRE</button>
+        </div>
+        <div id="smsprivate" style="display: none;">
+            <div id="messageContainerPrivee" ></div>
+
+
+            <div id="message-container" style="display: none;">
+                <input type="text" id="message-input" placeholder="votre message" autocomplete="off">
+                <button id="send-button">Envoyer</button>
+            </div>
+        </div>
+      
+    </div>
+
+
+
+
+
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="index2.js"></script>
+    <!-- Firebase App -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <!-- Firebase Firestore -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+
+    <!-- Firebase Authentication -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <!--pour le desing du chat-->
+    <script src="../js_et_css/index3.js"></script>
+    <!--pour le script de message et firebase-->
+    <script src="../js_et_css/index.js"></script>
+    <!--liste of user actif-->
+    <script src="../listeOfUserActif/liste-utilisateurs.js"></script>
+    <!--pour le mode sombre-->
+    <script src="../modeImg/mode.js"></script>
+</body>
+
+
+</html>

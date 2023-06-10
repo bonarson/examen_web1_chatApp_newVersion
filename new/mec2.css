@@ -1,0 +1,316 @@
+#conatiner_chat {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+#chatContainer {
+    height: 40vw;
+    width: 70vw;
+    border-radius: 3vw;
+    border-bottom-left-radius: 0px;
+    box-shadow: 0 3px 10px #010b14;
+    border: 5px solid #010b14;
+    position: relative;
+    overflow-y: auto;
+    margin-top: -4vw;
+    overflow-x: hidden;
+
+}
+
+#messageForm {
+    position: fixed;
+    bottom: 2vh;
+    left: 9.4%;
+    border: 2px solid white;
+    border-top: 0;
+    width: 80%;
+    height: 10vh;
+    border-radius: 3vw;
+    border-bottom-left-radius: 0px;
+    box-shadow: 5px 10px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageInput {
+    width: 80%;
+    height: 6vh;
+    background-color: transparent;
+    color: white;
+    background-color: black;
+    margin-bottom: -2vh;
+
+}
+
+#submit {
+    width: 6vw;
+    height: 6vh;
+    margin-bottom: -2vh;
+    margin-left: 1vh;
+    border-radius: 1vw;
+    background: #010b14;
+    color: white;
+}
+
+#chatContainer {
+    position: relative;
+
+}
+
+#chatContainer div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+
+}
+
+img {
+
+    position: absolute;
+    left: 1vw;
+    top: 1vw;
+    object-fit: cover;
+    border: 1px solid rgba(0, 0, 255, 0.555);
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.647);
+
+    border-radius: 50%;
+}
+
+#profileContainer div {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#chatContainer {
+    background-color: #010b14;
+
+}
+
+#conatiner_list {
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.809);
+    width: 30vw;
+    height: 100vh;
+    margin-left: 5.5vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+#header_list {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.983);
+
+}
+
+#h1_chat {
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#header_list_center {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.983);
+}
+
+#buttonAll {
+    width: 6vw;
+    height: 5vh;
+    color: black;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.67);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#input_list {
+    height: 5vh;
+    width: 20vw;
+    border: 1.5px solid rgba(0, 0, 0, 0.67);
+}
+
+#conataint_list_chat {
+    border: 2px solid white;
+    width: 58vw;
+    height: 100vh;
+    margin-left: 0.5vw;
+}
+
+#listOfFriendChatAnd {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+#conataint_list_chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profilUser {
+    width: 6vw;
+    height: 6vw;
+    border: 2px solid #010b14;
+    border-radius: 50%;
+
+}
+
+#userAuth {
+    position: relative;
+    height: 14.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
+
+
+}
+
+#userAuth {
+    background: rgba(255, 255, 255, 0.983);
+}
+
+#userAuth img {
+    width: 4.5vw;
+    float: left;
+    object-fit: cover;
+}
+
+#userAuth div {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+#chatContainer .timestamps {
+    color: white;
+    font-size: 0.9rem;
+    height: 7vh;
+    border-radius: 2vw;
+    margin-left: 105vh;
+    text-align: center;
+    line-height: 3vh;
+    background: rgba(0, 0, 0, 0.242);
+}
+
+#ListeOfuserConnect {
+    display: block;
+}
+
+#horizontalListe {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+#activeUsersList {
+    border: 2px solid black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.454), rgba(0, 0, 0, 0.169));
+    overflow-y: auto;
+
+}
+
+#activeUsersList div {
+    border: 2px solid #010b14;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.875);
+    cursor: pointer;
+
+}
+
+#activeUsersList div span {
+    color: white;
+
+}
+
+#activeUsersList div img {
+    width: 4vw;
+    position: relative;
+    margin-right: 2vw;
+    margin-top: -5vh;
+}
+
+#smsprivate {
+    width: 50vw;
+    height: 70%;
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 36%;
+    margin-right: 50%;
+    margin-bottom: 50%;
+    background-color: #010b14;
+}
+
+#messageContainerPrivee {
+    height: 60vh;
+    overflow-y: auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.875);
+    overflow-x: hidden;
+
+
+}
+
+#message-input {
+    position: absolute;
+    bottom: 1vh;
+    width: 40vw;
+    height: 6vh;
+    background: black;
+    color: white;
+
+}
+
+#send-button {
+    position: absolute;
+    bottom: 1vh;
+    right: 2vw;
+    height: 6vh;
+    width: 6vw;
+    background: #010b14;
+    color: white;
+}
+
+#mode,
+#clair {
+    margin-left: 1vw;
+    width: 7vw;
+    background: rgba(255, 255, 255, 0.983);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sombre {
+    background: url(../image/unnamed.png);
+}
+
+#claire {
+    background-image: url(../image/544414-futuristische-blauwe-smartphone-met-achtergrond-van-de-pixels-de-abstracte-technologie-kunstmatige-intelligentie-digitale-transformatie-en-big-data-concept-zakelijke-quantum-internet-ne.jpg);
+    background-size: cover;
+
+}
